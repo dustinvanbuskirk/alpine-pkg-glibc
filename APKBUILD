@@ -9,7 +9,7 @@ pkgdesc="GNU C Library compatibility layer"
 arch="armhf"
 url="https://github.com/sgerrand/alpine-pkg-glibc"
 license="GPL"
-source="$URL/glibc-bin-2.25.tar.gz
+source="$url/glibc-bin-2.26.tar.gz
 nsswitch.conf
 ld.so.conf"
 subpackages="$pkgname-bin $pkgname-dev $pkgname-i18n"
